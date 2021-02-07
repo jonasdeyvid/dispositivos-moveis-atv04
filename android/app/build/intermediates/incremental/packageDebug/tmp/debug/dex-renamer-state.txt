@@ -1,4 +1,4 @@
-#Sat Jan 30 22:42:49 BRT 2021
+#Sat Feb 06 20:59:47 BRT 2021
 base.0=/home/jonas/projetos-git/PIDM/dispositivos-moveis-atv04/android/app/build/intermediates/dex/debug/mergeDexDebug/out/classes.dex
 path.0=classes.dex
 renamed.0=classes.dex
