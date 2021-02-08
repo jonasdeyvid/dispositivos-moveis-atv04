@@ -30,11 +30,11 @@ export default Home;
 
 const styles = StyleSheet.create({
   view: {
-    flex: 1,
-    justifyContent: "center",
-    alignItems: "center",
+    padding: 20
   },
   text: {
-    margin: 20,
+    fontWeight: "bold",
+    fontSize: 30,
+    marginBottom: 20,
   }
 });

@@ -8,7 +8,7 @@ const components = ({ navigation }) => {
   const [altura, setAltura] = useState("");
   return (
     <View style={styles.pageContainer}>
-      <Text>IMC</Text>
+      <Text style={styles.headerPage}> IMC</Text>
       <TextInput
         placeholder="Peso"
         keyboardType="numeric"
@@ -49,5 +49,10 @@ function IMC(altura, peso) {
 const styles = StyleSheet.create({
   pageContainer: {
     padding: 20,
+  },
+  headerPage: {
+    fontWeight: "bold",
+    fontSize: 20,
+    marginBottom: 20,
   },
 });
